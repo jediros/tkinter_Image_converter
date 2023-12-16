@@ -9,6 +9,7 @@ import os
 root = tk.Tk()
 root.minsize(width=300, height=420)
 root.maxsize(width=300, height=420)
+root.title('Image extension converter')
 
 canvas1 = tk.Canvas(root, width=300, height=420, bg='azure3',
                     relief='raised')
@@ -127,4 +128,4 @@ canvas1.create_window(150, 380, window=bmp_button)
 # --------------------------------------------------
 
 root.mainloop()
-root.title('MICROSCOPIC TRANSVERSAL ANALIZER BAMBOO v1.0')
+
