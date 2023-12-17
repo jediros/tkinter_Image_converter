@@ -1,3 +1,33 @@
+###############################################################################
+import subprocess
+
+# List of required modules
+required_modules = [
+    'Pillow',
+    # Add other modules as needed
+]
+
+def install_modules():
+    for module in required_modules:
+        try:
+            subprocess.check_call(['pip', 'install', module])
+            print(f'Successfully installed {module}')
+        except subprocess.CalledProcessError:
+            print(f'Error installing {module}')
+
+# Install required modules
+install_modules()
+
+###############################################################################
+
+
+
+
+
+
+
+
+
 ## Libraries imported
 import tkinter as tk
 from tkinter import filedialog
