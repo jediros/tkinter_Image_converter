@@ -21,6 +21,8 @@ install_modules()
 ###############################################################################
 
 print("""
+###############################################################################
+
 IMAGE CONVERTER PROGRAM v1.0
 
 License: Open license
@@ -31,7 +33,10 @@ https://www.researchgate.net/profile/Jedi-Rosero-Alvarado-2
 IMPORTANT: This program was created to be run with specific .png or .jpg files.
 
 For more information or program changes, please contact the author.
+
+################################################################################
 """)
+
 
 ## Libraries imported
 import tkinter as tk
